@@ -56,6 +56,7 @@ speed = 0.5 + random(2);
             <string>instance_create(x, y, obj_asteroid_s);
 instance_create(x, y, obj_asteroid_s);
 
+global.points = global.points + 50;
 </string>
           </argument>
         </arguments>
